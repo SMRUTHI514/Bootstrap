@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.nav-link{
+    border:2px solid gray;
+    border-radius:1px;
+    color:white;
+    margin: 5px;
+    
+}
+.nav-link:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: white;
+   
+}
+.banner{
+    background-image: url(./banner.jpg);
+    height:60vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-body{
+    background-color: rgb(225, 225, 208);
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+    margin-left: 50px;
+}
+#set2{
+    margin-left: 35px;
+    justify-content: space-evenly;
+}
+#button2{
+  margin-left:200px;
+  height: 30px;
+}
+.services{
+    background-image: url(./service.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    margin-top:600px;
+    padding-top: 100px;
+}
+.card{
+    border-radius: 0px;
+    border:1px transparent;
+    background-color: #ececec;
+}
+
+.button{
+    margin-left:10px;
+    height: 30px;
+    width:140px;
+}
+.contact{
+    background-image: url(./contact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    width: 100%;
+   
+}
+.contform{
+    width: 50%;
+}
+@media (max-width: 768px) {
+    .contform{
+     width:90%;
+    }
+  }
+.contform>h1{
+    text-shadow: 2px 2px black;
+}
+.para-box{
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 15px 35px 4px 35px;
+    border-radius: 5px;
+}
+#message{
+    height: 145px
+}
+.form-control{
+    background-color: rgba(255, 255, 255, 0.5);
+    border:1px solid transparent;
+    border-radius:5px;
+}
+#sendbtn{
+    padding:8px 35px;
+    margin-right:0px;
+    border:1px solid white;
+    font-size:18px;
+}
